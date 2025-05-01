@@ -1,1 +1,15 @@
-
+name: CustomGear
+version: 1.0
+main: me.miko.customgear.CustomGear
+api-version: 1.20
+commands:
+  token:
+    description: 查看或管理玩家代幣
+    usage: /token [give|set|take] <玩家> <數量>
+  forgevendor:
+    description: 召喚鍛造商人
+    usage: /forgevendor spawn
+permissions:
+  customgear.admin:
+    description: 使用所有 CustomGear 管理指令
+    default: op
